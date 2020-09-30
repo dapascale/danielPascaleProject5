@@ -62,17 +62,6 @@ class App extends Component {
       })
   }
 
-
-  // componentDidUpdate() {
-  //   if (this.state.movieList.length) {
-  //     this.setState({
-  //       currentMovie: this.state.movieList[this.state.currentMovieIndex]
-  //     }) 
-  //     // this.props.movieChange(currentMovie)
-  //   }
-  //   console.log('movie updated')
-  // }
-
   movieChange = (movie) => {
     this.setState({
       currentMovie: movie
@@ -95,7 +84,6 @@ class App extends Component {
     if (currentMovieIndex < 0) {
       currentMovieIndex = this.state.movieList.length - 1
     }
-    console.log(currentMovieIndex)
     this.setState({
       currentMovieIndex,
       currentMovie: this.state.movieList[currentMovieIndex]
@@ -103,23 +91,17 @@ class App extends Component {
   }
 
   render() {
-    console.log('Andre is awesome!')
-    // let currentMovie = '';
-
-    // if (this.state.movieList.length) {
-    //   currentMovie = this.state.movieList[this.state.currentMovieIndex]
-    //   // this.props.movieChange(currentMovie)
-    // }
-
     return (
-      <div className="App">
+      <div className="App wrapper">
         <Movie
         movieChange={this.movieChange}
         currentMovie={this.state.currentMovie}
         handleClickLeft={this.handleClickLeft}
         handleClickRight={this.handleClickRight}
         />
-        <CommentList />
+        <CommentList
+        movieID={this.state.currentMovie.id}
+        />
       </div>
     );
   }

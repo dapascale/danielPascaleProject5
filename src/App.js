@@ -102,6 +102,14 @@ class App extends Component {
         <CommentList
         movieID={this.state.currentMovie.id}
         />
+        <div className="juno">
+          <a href="https://junocollege.com/">
+            <span className="junoImg">Created</span>
+            <span className="junoImg">at</span>
+            <span className="junoImg">Juno</span>
+            <span className="junoImg">College</span>
+          </a>
+        </div>
       </div>
     );
   }

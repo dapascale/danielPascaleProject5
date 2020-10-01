@@ -72,9 +72,13 @@ class CommentList extends Component {
         })
     }
 
+    // Could not properly complete logic on voting system ***
+    // Create a function to vote
     upVoteOrDownVote = (e, commentKey, isUp) => {
         e.preventDefault();
+        // Find the tage by finding the comments key and making sure it matches the passed argument
         const tagToUpdate = this.state.comments.find(comment => comment.key = commentKey);
+        
         const updatedComment = {
             ...tagToUpdate,
             voteCount: isUp ? ++tagToUpdate.voteCount : --tagToUpdate.voteCount

@@ -160,13 +160,14 @@ p,
   background: none;
   border: none;
   padding: 5px 5px 0;
+  margin: 5px;
   cursor: pointer;
 }
 
 .fa-chevron-circle-up,
 .fa-chevron-circle-down {
   color: rgb(72, 255, 163);
-  font-size: 1rem;
+  font-size: 1.6rem;
   transition: 0.3s all ease-in-out;
   border: none;
 }
@@ -176,19 +177,28 @@ p,
 .fa-chevron-circle-up:focus,
 .fa-chevron-circle-down:focus {
   color: rgb(255, 238, 0);
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   border: none;
 }
 
 .fa-chevron-circle-left,
 .fa-chevron-circle-right {
   font-size: 6rem;
-  padding: 5px;
+  /* padding: 5px; */
   color: #61dafb;
-  background-color: rgb(251, 255, 0);
+  background-color: transparent;
   border-radius: 50%;
-  border: rgb(201, 201, 76);
+  border: 8px ridge rgb(255, 217, 0);
   cursor: pointer;
+  transition: all 0.3s ease-in-out ;
+}
+
+.fa-chevron-circle-left:hover,
+.fa-chevron-circle-right:hover,
+.fa-chevron-circle-left:focus,
+.fa-chevron-circle-right:focus {
+  background-color: rgb(251, 255, 0);
+  border: 4px ridge rgb(251, 255, 0);
 }
 
 form {
@@ -242,4 +252,73 @@ input {
   width: 40px;
   display: inline-block;
   border-radius: 50%;
+}
+
+.juno {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin-top: 40px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  background-image: url(./assets/createdAtJuno.gif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 250px;
+  color: rgb(251, 255, 11)
+}
+
+.junoImg {
+  display: block;
+}
+
+.junoImg:first-of-type {
+  margin-top: 40px;
+}
+
+/* Laptops  */
+@media (max-width: 940px) {
+
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .imgContainer {
+    margin: 0 10px 20px;
+  }
+  .fa-chevron-circle-left,
+  .fa-chevron-circle-right {
+    font-size: 3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 420px) {
+  .imgContainer {
+    margin: 0 0 20px;
+  }
+  .fa-chevron-circle-left,
+  .fa-chevron-circle-right {
+    font-size: 3rem;
+  }
+}
+
+/* Mobile Small */
+@media (min-width: 320px) {
+  .imgContainer {
+    margin: 0 10px 20px;
+    width: 200px;
+  }
+  .fa-chevron-circle-left,
+  .fa-chevron-circle-right {
+    font-size: 2rem;
+  }
 }

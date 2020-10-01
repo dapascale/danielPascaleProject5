@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0744b763d0054e2ae72d14328669d024",
+    "revision": "c84e17857ea7177f7414fcefcfaf3cd6",
     "url": "/danielPascaleProject5/index.html"
   },
   {
-    "revision": "5ca1eb52962885b448e7",
-    "url": "/danielPascaleProject5/static/css/main.b2097e51.chunk.css"
+    "revision": "d938781380c8b68e5ee3",
+    "url": "/danielPascaleProject5/static/css/main.bb83e67b.chunk.css"
   },
   {
     "revision": "421c601e5075f190e861",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/danielPascaleProject5/static/js/2.efbc1c1a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ca1eb52962885b448e7",
-    "url": "/danielPascaleProject5/static/js/main.ddcf8c6a.chunk.js"
+    "revision": "d938781380c8b68e5ee3",
+    "url": "/danielPascaleProject5/static/js/main.38a17f93.chunk.js"
   },
   {
     "revision": "093193c9f7382d6bcff5",
     "url": "/danielPascaleProject5/static/js/runtime-main.5ac66d81.js"
+  },
+  {
+    "revision": "eea260d23670f9b02eb08c3c6f8e8aad",
+    "url": "/danielPascaleProject5/static/media/createdAtJuno.eea260d2.gif"
   },
   {
     "revision": "c4e7c08f2fd43b9efce141b0dcdb0465",

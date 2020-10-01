@@ -312,7 +312,8 @@ a {
 }
 
 /* Mobile Small */
-@media (min-width: 320px) {
+@media (min-width: 320px) and
+(max-width: 380px) {
   .imgContainer {
     margin: 0 10px 20px;
     width: 200px;

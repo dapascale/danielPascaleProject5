@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Movie extends Component {
-    constructor() {
-        super();
-    }
 
     render() {
         const { currentMovie } = this.props

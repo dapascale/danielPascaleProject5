@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/danielPascaleProject5/static/css/main.bb83e67b.chunk.css",
+    "main.css": "/danielPascaleProject5/static/css/main.41c9b89c.chunk.css",
     "main.js": "/danielPascaleProject5/static/js/main.38a17f93.chunk.js",
     "main.js.map": "/danielPascaleProject5/static/js/main.38a17f93.chunk.js.map",
     "runtime-main.js": "/danielPascaleProject5/static/js/runtime-main.5ac66d81.js",
@@ -8,16 +8,16 @@
     "static/js/2.efbc1c1a.chunk.js": "/danielPascaleProject5/static/js/2.efbc1c1a.chunk.js",
     "static/js/2.efbc1c1a.chunk.js.map": "/danielPascaleProject5/static/js/2.efbc1c1a.chunk.js.map",
     "index.html": "/danielPascaleProject5/index.html",
-    "precache-manifest.6f3541ed460ac0a73545412f855b2365.js": "/danielPascaleProject5/precache-manifest.6f3541ed460ac0a73545412f855b2365.js",
+    "precache-manifest.e355c401c7a6d6c68b4e8e13be8fccd8.js": "/danielPascaleProject5/precache-manifest.e355c401c7a6d6c68b4e8e13be8fccd8.js",
     "service-worker.js": "/danielPascaleProject5/service-worker.js",
-    "static/css/main.bb83e67b.chunk.css.map": "/danielPascaleProject5/static/css/main.bb83e67b.chunk.css.map",
+    "static/css/main.41c9b89c.chunk.css.map": "/danielPascaleProject5/static/css/main.41c9b89c.chunk.css.map",
     "static/js/2.efbc1c1a.chunk.js.LICENSE.txt": "/danielPascaleProject5/static/js/2.efbc1c1a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/danielPascaleProject5/static/media/uptagico.0ff3b586.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5ac66d81.js",
     "static/js/2.efbc1c1a.chunk.js",
-    "static/css/main.bb83e67b.chunk.css",
+    "static/css/main.41c9b89c.chunk.css",
     "static/js/main.38a17f93.chunk.js"
   ]
 }
